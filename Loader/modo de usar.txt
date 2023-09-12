@@ -1,0 +1,6 @@
+Incluir na página : 
+<link rel="stylesheet" href="~/css/loader.css"/>
+<script src="~/js/loader.js"></script>
+
+Incluir na tag:
+onclick="processar(this.id)

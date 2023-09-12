@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de botão invisível com status de desabilitado</title>
+</head>
+<body>
+
+  <style>
+    .ocultar{
+      display: none;
+    }
+  </style>
+
+  <button id="btnPlay" onclick="ocultarBotao()">Clique aqui</button>
+  <button id="btnStop"class="ocultar" onclick="ocultarBotao()">Pausado</button>
+
+  <script>
+    function ocultarBotao() {
+      var meuBotao = document.getElementById("btnPlay");
+      var outroBotao = document.getElementById("btnStop");
+
+      meuBotao.classList.toggle("ocultar");
+      outroBotao.classList.toggle("ocultar");
+
+    }
+  </script>
+</body>
+</html>
